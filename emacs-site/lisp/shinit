@@ -1,0 +1,42 @@
+# -*- mode: sh -*-
+# 
+# 
+
+# Authored by effecting2 in 2006.
+# Released to the Public Domain for fair use.
+
+# This code is not part of GNU Emacs.
+
+# .profile equivalent for inferior shells running inside Emacs
+
+# options to view in other window
+G="-v -eval '(other-window 1)'"
+
+alias e=$EDITOR
+alias q="$EDITOR"
+alias n=$EDITOR
+alias emacs=$EDITOR
+alias qemacs=$EDITOR
+alias nano=$EDITOR
+alias cleandir="rm -f *~ #*# *.tmp"
+alias less="$EDITOR $G"
+alias more="$EDITOR $G"
+
+# safety
+alias cp='cp -i'
+alias mv='mv -i'
+alias rm='rm -i'
+
+# short-hand
+alias c='cat'
+alias p="$EDITOR $G"
+alias h='head -n 30'
+alias t='tail -n 30'
+alias l='ls'
+alias s='cd ..'
+alias la='ls -a'
+alias ll='ls -l'
+alias r='grep -C 1 "[$]\(Id\|Date\|Rev\|Auth\|Head\|Last\)\w*[:].*[$]"'
+alias 'u+w'='chmod u+w'
+alias 'u+x'='chmod u+x'
+alias 'a+r'='chmod a+r'

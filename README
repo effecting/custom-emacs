@@ -1,0 +1,13 @@
+# -*- mode: org; mode: smart-chars -*-
+#+STARTUP:     logging showall hidestars
+#+CATEGORY:    GNU Emacs
+#+AUTHOR:      effecting
+#+TITLE:       README for custom-emacs github.com repository
+#+EMAIL:       contact@effecting.us
+#+SEQ_TODO:    MAYBE WAIT TODO PART VERIFY | DONE SKIP
+#+OPTIONS:     H:5 toc:2 ^:nil
+
+Here reside user customizations to GNU Emacs. I personally use these
+settings with GNU Emacs on Linux, Windows, and Cygwin.
+
+
